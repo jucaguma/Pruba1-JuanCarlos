@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap');
+:root{
+--color-naranja: #ffac2c;
+--color-negro: #29373c;
+--color-fondo-gris: #f9fbf3;
+--color-fondo-footer: #ED8F03;
+--color-texto-general: #999;
+}
+
+.navbar-brand h1{
+	color: #fff;
+}
+#hero h2{
+	font-family: 'Shojumaru', cursive;
+	color: var(--color-naranja);
+	font-size: 4.5em;
+	padding-top: 20%;
+	font-weight: 700;
+	
+}
+#hero p{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 40px;
+	color: #fff;
+	
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-naranja);
+}
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;	
+}
+
+.navbar{
+	font-family:'Shojumaru';
+	color: var(--color-naranja);
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+
+}
+
+
+#hero .info{
+	margin-left: -10%;
+
+}
+
+.btn-primary {
+	background-color: var(--color-naranja);
+	text-align: center;
+	font-weight: 500;
+	color: var(--color-negro);
+}
+
+.btn-primary:hover{
+	background-color: var(--color-boton-hover);
+}
+
+#home-continue{
+	backround-color: #faf9ff;
+	
+}
+
+#home-continue h2{
+	align-content: center;
+	text-align: center;
+	padding-top: 8%;
+	color: var(--color-negro);
+	font-family: 'Nanum pen script';
+	font-size: 50px;	
+	
+}
+#home-continue h5{
+	align-content: center;
+	text-align: center;
+	color: var(--color-negro);
+	font-family: 'Nanum pen script';
+	font-size: 30px;	
+	
+}
+
+.info-icon{
+	padding: 25% 10%;
+	transition: all 0.3s ease;
+	align-content: center;
+	align-items: center;
+	padding-left: 60px;
+	
+}
+
+.info-icon h3{
+	font-family: 'Nanum pen script';
+	color: var(--color-negro);
+	font-size: 25px;
+}
+
+.info-icon p{
+	font-family: 'Stylish';
+	color: var(--color-texto-general);
+	font-size: 15px;
+}
+#home-continue .info-contenido{
+	overflow: hidden;
+}
+
+#home-continue img{
+	margin-right: 10px;
+	
+}
+
+.info-icon:hover{
+	box-shadow: 0 0 38px #eee;
+	trasnform: translateY(-10px);
+	transition: all 0.3s ease;
+}
+
+#about{
+	background-color: var(--color-fondo-gris);
+	align-content: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+
+#about .faq{
+	background-color: var(--color-fondo-gris);
+	align-items: center;
+	align-content: center;
+	padding-left: 65px;
+	padding-top: 60px;
+}
+
+#about h3{
+	color: var(--color-negro);
+	font-family: 'Nanum pen script';
+	font-size: 25px;
+}
+
+#about p{
+	color: var(--color-texto-general);
+	font-family: 'Nanum pen script';
+	font-size: 20px;
+}
+
+#about h4{
+	color: var(--color-negro);
+	font-family: 'Nanum pen script';
+	font-size: 25px;
+}
+
+#five{
+	padding: 110px;
+}
+#five li{
+	padding-left: 160px;
+	padding-top: 20px;
+	
+}
+#five p{
+	font-family: 'Stylish';
+	font-size: 18px;
+	color: var(--color-texto-general);
+}
+#five h2{
+	padding-top: 60px;
+	color: #29373c;
+	font-family: 'Nanum Pen Script';
+	font-size: 50px;
+	}
+#five h4{
+	font-family: 'Stylish';
+	font-size: 18px;
+	color: var(--color-texto-general);
+	}
+
+footer{
+	color: #00000;
+	text-align: center;
+	background-color: var(--color-naranja);
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+footer h2{
+	color: var(--color-negro);
+	font-size: 20px;
+}
